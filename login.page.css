@@ -1,0 +1,173 @@
+body{
+    background: url(img12.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.Login{
+    width: 450px;
+    height: 550px;
+    padding: 0px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.7);
+
+}
+.Login img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 120px;
+
+}
+.Login h1{
+    margin: 0;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+
+}
+.Login label{
+    color: #fff;
+    font-weight: bold;
+
+}
+.Login input{
+    width: 100%;
+    margin: 10px 0px;
+
+}
+.Login input[ type="text "],
+.Login input[ type="password"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+
+}
+.Login input[ type="submit"]{
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    font-size: 20px;
+    background: rgb(40, 135, 138);
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: .5s ease;
+
+}
+.Login input[ type="submit"]:hover{
+    transform: scale(1.1) ;
+}
+.Login a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*--navbarr--*/
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*Header start*/
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+}
+header .logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+header .nav-ul{
+    position: relative;
+    display: flex;
+}
+header .nav-ul li{
+    list-style: none;
+    margin-left: 20px;
+    
+
+}
+header .nav-ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color:rgb(40, 135, 138);
+    transition: .5s ease;
+}
+header .nav-ul li a:hover{
+    color:rgb(40, 135, 138) ;
+    transform: scale(1.1) ;
+
+}
+body{
+    background: url(img12.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+/*--navbarr--*/
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*Header start*/
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+}
+header .logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+header .nav-ul{
+    position: relative;
+    display: flex;
+}
+header .nav-ul li{
+    list-style: none;
+    margin-left: 20px;
+    
+
+}
+header .nav-ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color:rgb(40, 135, 138);
+    transition: .5s ease;
+}
+header .nav-ul li a:hover{
+    color:#fff ;
+    transform: scale(1.1) ;
+
+}
